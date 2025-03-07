@@ -14,9 +14,7 @@ else:
 st.title("Price Predictor: Insights for Smarter Decisions")
 st.write("An AI-powered tool designed to help you analyze,predict total prices and optimize business decisions effortlessly")
 
-from PIL import Image
-img = Image.open(r"C:\Users\hp\Machinelearning\IMG_3445.JPG")
-st.image(img, width=800)
+
 
 # Input grid
 col1, col2, col3 = st.columns(3)
