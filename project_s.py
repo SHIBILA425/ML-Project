@@ -3,7 +3,7 @@ import joblib
 import os
 
 # Load the model
-model_path =  r"C:\Users\hp\Machinelearning\Project"
+model_path =  r"lr_prjct"
 if os.path.exists(model_path):
     model = joblib.load(model_path)
 else:
